@@ -16,7 +16,7 @@ interface DashboardHeaderProps {
   onMenuClick: () => void
 }
 
-export default function DashboardHeader({ onMenuClick }: DashboardHeaderProps) {
+export function DashboardHeader({ onMenuClick }: DashboardHeaderProps) {
   const { user, signOut } = useAuth()
 
   return (
